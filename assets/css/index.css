@@ -28,8 +28,8 @@ nav ul li a {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: #222;
-	color: #fff;
+	background: #000000;
+	color: #64fa0d;
 }
 .title {
 	font-size: 3rem;
