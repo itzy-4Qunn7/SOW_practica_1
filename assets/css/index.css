@@ -1,6 +1,6 @@
 header {
-    background: #000000;
-    box-shadow: 0 2px 5px rgba(50, 52, 47, 0.838);
+    background: #161515e1;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
 }
 nav {
     position: sticky;
