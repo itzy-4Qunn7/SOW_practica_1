@@ -3,3 +3,8 @@
     text-transform: uppercase;
     color: #fa0d0d;
 }
+
+.content{
+    font-size: 1.25rem;
+    color:rgb(252, 252, 252)
+}
