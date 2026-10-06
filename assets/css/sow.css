@@ -21,6 +21,7 @@
 .error-page .title {
     font-family: inherit;
     font-weight: 400;
+    font-size: 250px;
 }
 
 .error-cover {
@@ -30,13 +31,18 @@
 
 .error-cover .title {
     position: relative;
+    top: 45%;
+    left: 2%;
+    margin:0;
+    transform: rotate(-90deg);
+    transform-origin: left top;
     z-index: 2;
 }
 
 .error-cover .error-art {
     position:absolute;
-    width: clamp(100px, 100vw, 240px);
-    max-height: 28svh;
+    width: clamp(200px, 100vw, 240px);
+    max-height: 100svh;
     object-fit: contain;
 }
 
@@ -60,9 +66,8 @@ left: 5%;
 
 .error-home {
     position: absolute;
-    bottom: 4%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 64%;
+    right: 5%;
     color:#64fa0d;
     z-index: 2;
 
