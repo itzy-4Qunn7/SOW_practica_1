@@ -41,7 +41,7 @@
 
 .error-cover .error-art {
     position:absolute;
-    width: clamp(200px, 100vw, 240px);
+    width: clamp(200px, 100vw, 320px);
     max-height: 100svh;
     object-fit: contain;
 }
@@ -149,7 +149,7 @@ left: 5%;
     }
 
     .error-cover .error-art{
-        width: clamp(70px, 27vw, 150px);
+        width: clamp(75px, 33vw, 200px);
         max-height: 22svh;
         height: auto;
     }
