@@ -1,14 +1,25 @@
 .error{
     font-size: 1rem;
     text-transform: uppercase;
-    color: #261e1edd;
+    color: transparent;
     transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
-.error:hover {
+.error:hover,
+.error:focus-visible { 
     color:#fa0d0d;
     text-shadow: 0 0 8px #ff5555;
 
+}
+
+.error-page {
+    font-family: "VT323", monospace;
+    font-size: 1.5rem;
+}
+
+.error-page .title {
+    font-family: inherit;
+    font-weight: 400;
 }
 
 
