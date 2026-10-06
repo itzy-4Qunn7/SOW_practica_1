@@ -15,6 +15,7 @@
 .error-page {
     font-family: "VT323", monospace;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 .error-page .title {
@@ -22,6 +23,48 @@
     font-weight: 400;
 }
 
+.error-cover {
+    position: relative;
+    height: 100svh;
+}
+
+.error-cover .title {
+    position: relative;
+    z-index: 2;
+}
+
+.error-cover .error-art {
+    position:absolute;
+    width: clamp(60px, 22vw, 100px);
+    max-height: 28svh;
+    object-fit: contain;
+}
+
+.art1 {
+top:8%;
+left: 5%;
+}
+
+.art2 {
+    top:8%;
+    right: 5%;
+
+}
+
+.art3 {
+    bottom: 15%;
+
+}
+
+.error-home {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#64fa0d;
+    z-index: 2;
+
+}
 
 .content{
     max-width:70ch;
