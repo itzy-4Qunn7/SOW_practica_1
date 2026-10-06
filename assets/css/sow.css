@@ -53,6 +53,8 @@ left: 5%;
 
 .art3 {
     bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
