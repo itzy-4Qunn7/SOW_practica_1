@@ -35,7 +35,7 @@
 
 .error-cover .error-art {
     position:absolute;
-    width: clamp(60px, 22vw, 100px);
+    width: clamp(100px, 30vw, 240px);
     max-height: 28svh;
     object-fit: contain;
 }
