@@ -130,3 +130,55 @@ left: 5%;
 .terminal p + p {
     padding-top: 0;
 }
+
+@media(max-width: 600px) {
+    .error-cover{
+        height: 100svh;
+    }
+
+    .error-cover .title {
+        position:absolute;
+        top: 50%;
+        left: 40%;
+        margin: 0;
+        font-size: clamp(5rem, 20vw, 8rem);
+        line-height: 1;
+        white-space: nowrap;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        transform-origin: center;
+    }
+
+    .error-cover .error-art{
+        width: clamp(70px, 27vw, 150px);
+        max-height: 22svh;
+        height: auto;
+    }
+
+    .error-cover .art1 {
+        top: 6%;
+        left: 4%;
+    }
+
+    .error-cover .art2 {
+        top: 10%;
+        right: 4%;
+    }
+
+    .error-cover .art3 {
+        top:auto;
+        bottom: 12%;
+        left: 48%;
+        transform: translateX(-50%);
+    }
+
+    .error-cover .error-home {
+        top: 68%;
+        right: 4%;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        font-size: 1.5rem;
+        padding: 0.75rem;
+        z-index: 3;
+    }
+}
