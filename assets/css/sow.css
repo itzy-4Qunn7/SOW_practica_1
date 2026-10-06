@@ -1,7 +1,13 @@
 .error{
     font-size: 1rem;
     text-transform: uppercase;
-    color: #fa0d0d;
+    color: #261e1edd;
+}
+
+.error:hover {
+    color:#fa0d0d;
+    text-shadow: 0 0 8px #ff5555;
+
 }
 
 .content{
