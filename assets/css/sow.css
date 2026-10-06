@@ -30,3 +30,33 @@
     width: 100%;
     height: auto;
 }
+
+.terminal {
+    margin-bottom: 1.5rem;
+    border: 1px solid #64fa0d;
+    background: #080d08;
+}
+
+.terminal-title{
+	font-family: "Share Tech Mono", monospace;
+	font-weight: 400;
+	margin: 0;
+	padding: 1px solid #64fa0d;
+	background: #112011;
+	color: #64fa0d;
+	font-size: 1rem;
+}
+
+.terminal-title::before {
+    content: "> ";
+    color: #ff5555;
+}
+
+.terminal p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.terminal p + p {
+    padding-top: 0;
+}
