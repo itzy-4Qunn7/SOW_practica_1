@@ -91,7 +91,7 @@ left: 5%;
 
 .captures{
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(min(0,2fr)), 1fr);
+    grid-template-columns:repeat(auto-fit, minmax(min(100%,16rem)), 1fr);
     gap: 1rem;
     padding: 1rem; 
 }
@@ -105,40 +105,6 @@ left: 5%;
     display: block;
     width: 100%;
     height: auto;
-}
-
-.content-block {
-    display:grid;
-    grid-template-columns: minmax(0,3fr) minmax(0,2fr);
-    align-items: start;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.content-block .terminal {
-    min-width: 0;
-    margin-bottom: 0;
-}
-
-/*para colocar las capturas al lado de las terminales con texto*/
-.content-block .captures {
-    grid-template-columns: minmax(0,1fr);
-    min-width: 0;
-    padding: 0;
-}
-
-/*capturas a la izquierda*/
-.content-block-reverse {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
-}
-
-.content-block-reverse .captures {
-    grid-column: 1;
-    grid-row: 1;
-}
-.content-block-reverse .terminal {
-    grid-column: 2;
-    grid-row: 1;
 }
 
 .terminal {
@@ -225,21 +191,7 @@ left: 5%;
 }
 
 @media (max-width: 600px) {
-    .content-block,
-    .content-block-reverse {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-    .content-block .terminal {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .content-block .captures {
-        grid-column: 1;
-        grid-row: 2;
-    }
-
+    
     /*todo pasa a carrusel*/
     .captures {
         display: flex;
