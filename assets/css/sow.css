@@ -64,6 +64,12 @@ left: 5%;
 
 }
 
+.art4 {
+    bottom: 1%;
+    left: 5%;
+    transform: translateX(-20%);
+}
+
 .error-home {
     position: absolute;
     top: 64%;
