@@ -80,7 +80,7 @@ left: 5%;
 }
 
 .content {
-    max-width:1200px;
+    max-width: 70ch;;
     margin-inline: auto;
     padding:1rem;
     line-height: 1.6;
@@ -108,6 +108,7 @@ left: 5%;
 }
 
 .content-block {
+    max-width: 1200px;
     display:grid;
     grid-template-columns: minmax(0,3fr) minmax(0,2fr);
     align-items: start;
