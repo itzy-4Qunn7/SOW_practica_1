@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'SOW_practica_1/sow/'
+          path: './SOW_practica_1/sow/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
